@@ -14,4 +14,4 @@ EBroker assignment for unit test
 1. For generating code covrage report use dotnet CLI  
   `dotnet test --collect:"XPlat Code Coverage"`
 1. above command will generate covrage file with name `coverage.cobertura.xml` inside TestResult folder.  
-  ![coveragereport](./src/Nagp.eBroker.UnitTests/Summary - Coverage Report.png)
+  ![coveragereport](./src/Nagp.eBroker.UnitTests/Summary_Coverage_Report.png)
