@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  nagp.ebroker:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5010:80"
