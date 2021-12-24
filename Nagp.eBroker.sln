@@ -9,6 +9,11 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "src\Nagp.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nagp.eBroker.UnitTests", "src\Nagp.eBroker.UnitTests\Nagp.eBroker.UnitTests.csproj", "{E59EA270-0508-4D4B-9463-1813BAE928F7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D5DC936B-8406-405B-A5BB-8026AB2FC091}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

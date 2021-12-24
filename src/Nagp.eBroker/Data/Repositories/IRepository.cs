@@ -17,7 +17,7 @@ namespace Nagp.eBroker.Data.Repositories
 
         ValueTask Insert(TEntity entity);
 
-        Task Delete(object id);
+        Task Delete(params object[] id);
 
         void Delete(TEntity entityToDelete);
 

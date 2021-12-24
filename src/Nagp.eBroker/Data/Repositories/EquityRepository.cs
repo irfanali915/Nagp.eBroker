@@ -1,4 +1,5 @@
 ﻿using Nagp.eBroker.Data.Entities;
+using System.Threading.Tasks;
 
 namespace Nagp.eBroker.Data.Repositories
 {
@@ -11,9 +12,7 @@ namespace Nagp.eBroker.Data.Repositories
             _eBrokerContext = eBrokerContext;
         }
 
-        public void Save()
-        {
-            _eBrokerContext.SaveChanges();
-        }
+        public Task<int> Save()
+         => _eBrokerContext.SaveChangesAsync();
     }
 }

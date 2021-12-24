@@ -59,7 +59,7 @@ namespace Nagp.eBroker.Data.Repositories
             return ValueTask.CompletedTask;
         }
 
-        public virtual async Task Delete(object id)
+        public virtual async Task Delete(params object[] id)
         {
             TEntity entityToDelete = await dbSet.FindAsync(id);
             Delete(entityToDelete);
